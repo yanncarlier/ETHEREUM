@@ -81,6 +81,7 @@ Write it down, you won’t be able to retrieve it later.
 
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
+Security note: never commit real relayer API/secret keys to a public repo. Store them in local env vars or a secret manager, and rotate immediately if exposed.
 
 
 

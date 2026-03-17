@@ -397,3 +397,23 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 notes.md
+
+# Security / secrets
+.env
+.env.*
+*.env.local
+*.env.*.local
+secrets.*
+.secrets
+*.secret
+*.secrets
+*.pem
+*.key
+*.p12
+*.pfx
+*id_rsa*
+*id_ed25519*
+**/keystore/
+*keystore*
+*.mnemonic
+*.seed
